@@ -31,6 +31,17 @@ This project takes that raw data through the full analytics process:
 
 The aim is to help the café owner understand **what sells, when it sells, how customers pay and where the data needs improving**.
 
+## Dashboard Screenshots
+
+### Overview
+![Dashboard Overview](overview.png)
+
+### Sales Trends
+![Sales Trends](sales_trends.png)
+
+### Item Performance
+![Item Performance](item_performance.png)
+
 ---
 
 ## ❓ Business Problems
@@ -102,11 +113,7 @@ Raw data (Excel)  →  Cleaned data + Cleaning Log  →  SQL analysis  →  Powe
 
 > **Why `Unknown` instead of deleting rows?** Dropping incomplete rows would have understated revenue. Labelling the gaps keeps totals accurate and makes the data quality problem visible.
 
-### Dashboard Preview
 
-![Overview](images/overview.png)
-![Sales Trends](images/sales_trends.png)
-![Item Performance](images/item_performance.png)
 ---
 
 ## 🔍 Key Findings
