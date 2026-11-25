@@ -6,7 +6,7 @@
 
 ## 📑 Table of Contents
 1. [Project Overview](#-project-overview)
-2. Dashboard Preview  
+2. Dashboard   Screenshots
 3. [Business Problems](#-business-problems)
 4. [Dataset](#-dataset)
 5. [Tools Used](#-tools-used)
