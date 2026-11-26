@@ -1,10 +1,10 @@
-# ☕ Golden Bean Café: Sales Trends and Item Performance Analysis
+#  Golden Bean Café: Sales Trends and Item Performance Analysis
 
 **An end-to-end data analytics project: Excel data cleaning → SQL business analysis → interactive Power BI dashboard**
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 1. [Project Overview](#-project-overview)
 2. Dashboard   Screenshots
 3. [Business Problems](#-business-problems)
@@ -19,7 +19,7 @@
 
  ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Golden Bean Café is a fictional café whose 2023 sales records came as a messy, raw spreadsheet with missing values, inconsistent entries and gaps across several columns.
 
@@ -44,7 +44,7 @@ The aim is to help the café owner understand **what sells, when it sells, how c
 
 ---
 
-## ❓ Business Problems
+##  Business Problems
 
 Golden Bean Café's owner has a large, messy sales record but no clear answers to the questions that drive daily decisions:
 
@@ -56,34 +56,21 @@ Golden Bean Café's owner has a large, messy sales record but no clear answers t
 
 **This project answers these problems** by cleaning the data, analysing it with SQL and presenting the results in an interactive Power BI dashboard.---
 
-## 📂 Dataset
+##  Dataset
 
 | Detail | Description |
 |---|---|
-| **File** | `Dirty_Cafe_Sales.xlsx` |
+| **File** | `original_Cafe_Sales.xlsx` |
 | **Records** | 10,000 transactions |
 | **Period** | January to December 2023 |
 | **Items** | Cake, Coffee, Cookie, Juice, Salad, Sandwich, Smoothie, Tea |
 | **Payment methods** | Cash, Credit Card, Digital Wallet |
 | **Locations** | In-Store, Takeaway |
 
-**Columns in the cleaned dataset**
-
-| Column | Description |
-|---|---|
-| `Transaction ID` | Unique ID for each transaction |
-| `Transaction Date` | Date of the sale |
-| `Year`, `Month_Name`, `Day_of_Week` | Fields derived from the transaction date |
-| `Item` | Product sold |
-| `Quantity` | Number of units sold |
-| `Price Per Unit` | Price of one unit |
-| `Total Spent` | Quantity × Price Per Unit |
-| `Payment Method` | How the customer paid |
-| `Location` | In-Store or Takeaway |
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -95,7 +82,7 @@ Golden Bean Café's owner has a large, messy sales record but no clear answers t
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 ```
 Raw data (Excel)  →  Cleaned data + Cleaning Log  →  SQL analysis  →  Power BI dashboard  →  Insights & recommendations
@@ -103,7 +90,7 @@ Raw data (Excel)  →  Cleaned data + Cleaning Log  →  SQL analysis  →  Powe
 
 ---
 
-## 🔧 Methodology
+##  Methodology
 
 | Step | Tool | What was done |
 |---|---|---|
@@ -116,7 +103,7 @@ Raw data (Excel)  →  Cleaned data + Cleaning Log  →  SQL analysis  →  Powe
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 **Overall performance**
 - **Total revenue: $89,096** from **10,000 transactions** and **30,180 items sold**.
@@ -139,7 +126,7 @@ Raw data (Excel)  →  Cleaned data + Cleaning Log  →  SQL analysis  →  Powe
 
 ---
 
-## 💡 Recommendations
+##  Recommendations
 
 1. **Fix data capture at the till.** Make location and payment method required fields. About 40% of revenue has no location, which limits what the café can learn.
 2. **Protect and promote the best sellers.** Salad, Sandwich and Smoothie drive over half of revenue, so keep them well stocked and visible.
@@ -150,7 +137,7 @@ Raw data (Excel)  →  Cleaned data + Cleaning Log  →  SQL analysis  →  Powe
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - **Unknown values:** a large share of records has missing `Location`, `Payment Method`, `Item`, `Day` or `Month`. These were kept and labelled `Unknown`, and excluded from some visuals.
 - **Single year:** the data covers 2023 only, so year-on-year growth cannot be measured.
@@ -162,7 +149,7 @@ Raw data (Excel)  →  Cleaned data + Cleaning Log  →  SQL analysis  →  Powe
 
 
 
-## 👤 Author
+##  Author
 
 **Esomchi Ezenwukwa**
    Data Analyst | Medical Student
@@ -171,6 +158,6 @@ Raw data (Excel)  →  Cleaned data + Cleaning Log  →  SQL analysis  →  Powe
 🔗 LinkedIn: *[ https://www.linkedin.com/in/esomchi-ezenwukwa-099923410?utm_source=share_via&utm_content=profile&utm_medium=member_android]*
 
 This project showcases my ability to clean, analyze and visualize data to identify trends, solve business problems and support data-driven decisions. Through this project, I explored the sales performance of Golden Bean Café, carried out data cleaning and analysis, answered business questions using SQL, and developed an interactive Power BI dashboard to communicate key findings and insights.
-        My focus is on using data to identify patterns, uncover opportunities and provide actionable recommendations that drive better business decisions.
+       
 
 
